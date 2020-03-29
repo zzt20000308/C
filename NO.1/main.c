@@ -24,3 +24,4 @@ int main()
     printf("大写字母:%d\n小写字母:%d\n空格:%d\n数字:%d\n其他字符:%d\n",A,a,b,c,d);
     return 0;
 }
+
