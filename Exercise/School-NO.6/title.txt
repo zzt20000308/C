@@ -1,0 +1,21 @@
+写一函数，实现两个字符串的比较。即自己写一个strcmp函数，函数原型为：
+int stremp(char *p1,char *p2)
+设p1指向字符串s1，p2指向字符串s2。
+
+要求：
+当s1=s2时，返回值为0。
+当s1不等于s2时，返回它们二者的第一个不同字符的ASCII码差值（如“BOY”与“BAD”，第二字母不同，“O”与“A”之差为79-65=14）；如果s1>s2，则输出正值；如果s1<s2，则输出负值。
+
+例如：
+① Input two strings:
+    CHINA
+    Chen
+    Result: -32
+② Input two strings:
+    hello! 
+    hello! 
+   Result: 0
+③ Input two stings:
+    dog
+    cat
+    result: 1
