@@ -9,6 +9,6 @@ int main()
         printf("i=%d,j=%d\n",i,j);
     }
     printf("\n");
-    printf("×îÖÕÊä³ö½á¹û:i=%d,j=%d\n",i,j);
+    printf("æœ€ç»ˆè¾“å‡ºç»“æœ:i=%d,j=%d\n",i,j);
     return 0;
 }

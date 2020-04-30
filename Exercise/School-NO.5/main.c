@@ -19,7 +19,7 @@ int main()
     int a[3][3];
     int (*p)[3],i,j;
     p=a;
-    printf("ÊäÈë9¸öÕûÊı:");
+    printf("è¾“å…¥9ä¸ªæ•´æ•°:");
     for(i=0;i<3;i++)
     {
         for(j=0;j<3;j++)
