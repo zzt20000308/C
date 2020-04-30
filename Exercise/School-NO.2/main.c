@@ -26,6 +26,6 @@ int main()
         p2=p3;
         p3=p;
     }
-    printf("从小到大:%d %d %d\n",*p3,*p2,*p1);
+    printf("浠庡皬鍒板ぇ鎺掑垪:%d %d %d\n",*p3,*p2,*p1);
     return 0;
 }
