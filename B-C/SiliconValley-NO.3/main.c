@@ -9,6 +9,6 @@ int main()
         printf("i=%d,j=%d\n",i,j);
     }
     printf("\n");
-    printf("最后输出:i=%d,j=%d\n",i,j);
+    printf("最终输出结果:i=%d,j=%d\n",i,j);
     return 0;
 }
