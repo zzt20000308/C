@@ -3,23 +3,23 @@
 
 int main()
 {
-    int a[100],b[100],c[100],n;//¶¨ÒåÊýÖµ£¬ÖÐÀ¨ºÅÀïÃæÖ¸µÄÊÇ³¤¶È
-    while(scanf("%d",&n))//ÕâÊÇµÚÒ»ÐÐµÄÊäÈë
+    int a[100],b[100],c[100],n;//å®šä¹‰æ•°å€¼ï¼Œä¸­æ‹¬å·é‡Œé¢æŒ‡çš„æ˜¯é•¿åº¦
+    while(scanf("%d",&n))//è¿™æ˜¯ç¬¬ä¸€è¡Œçš„è¾“å…¥
     {
         for(int i=1;i<=n;i++)
         {
-            scanf("%d",&a[i]);//ÕâÊÇµÚ¶þÐÐµÄÊäÈë
+            scanf("%d",&a[i]);//è¿™æ˜¯ç¬¬äºŒè¡Œçš„è¾“å…¥
         }
         for(int i=1;i<=n;i++)
         {
-            scanf("%d",&b[i]);//ÕâÊÇµÚÈýÐÐµÄÊäÈë
+            scanf("%d",&b[i]);//è¿™æ˜¯ç¬¬ä¸‰è¡Œçš„è¾“å…¥
         }
         for(int i=1;i<=n;i++)
         {
-            c[i]=a[i]*b[i];//ÔÚÕâÀïÎÒÃÇÖØÐÂÐ´Ò»¸öÊýÖµc[]
-            printf("%-8d",c[i]);//Êä³öµÄÊÇµÚ¶þÐÐºÍµÚÈýÐÐµÄÊýÉÏÏÂÏà³Ë
+            c[i]=a[i]*b[i];//åœ¨è¿™é‡Œæˆ‘ä»¬é‡æ–°å†™ä¸€ä¸ªæ•°å€¼c[]
+            printf("%-8d",c[i]);//è¾“å‡ºçš„æ˜¯ç¬¬äºŒè¡Œå’Œç¬¬ä¸‰è¡Œçš„æ•°ä¸Šä¸‹ç›¸ä¹˜
         }
-        printf("\n");//»»ÐÐ
+        printf("\n");//æ¢è¡Œ
     }
     return 0;
 }
