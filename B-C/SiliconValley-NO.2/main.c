@@ -4,29 +4,29 @@
 int main()
 {
     int month;
-    printf("ÇëÊäÈëÔÂ·İ:");
+    printf("è¯·è¾“å…¥æœˆä»½:");
     scanf("%d",&month);
     switch(month)
     {
     case 3:
     case 4:
     case 5:
-        printf("´º¼¾\n");
+        printf("æ˜¥å­£\n");
         break;
     case 6:
     case 7:
     case 8:
-        printf("ÏÄ¼¾\n");
+        printf("å¤å­£\n");
         break;
     case 9:
     case 10:
     case 11:
-        printf("Çï¼¾\n");
+        printf("ç§‹å­£\n");
         break;
     case 12:
     case 1:
     case 2:
-        printf("¶¬¼¾\n");
+        printf("å†¬å­£\n");
         break;
     }
     return 0;

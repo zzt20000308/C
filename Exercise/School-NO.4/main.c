@@ -5,7 +5,7 @@ int score(int n)
 {
     int a[150],i,j=0,*p;
     p=a;
-    printf("ÊäÈëÑ§Éú³É¼¨:");
+    printf("è¾“å…¥å­¦ç”Ÿæˆç»©:");
     for(i=0;i<n;i++)
     {
         scanf("%d",p+i);
@@ -17,14 +17,14 @@ int score(int n)
              j++;
             }
         }
-    printf("³É¼¨ºÏ¸ñµÄÈËÊı:%d\n",j);
+    printf("æˆç»©åˆæ ¼çš„äººæ•°:%d\n",j);
     return 0;
 }
 
 int main()
 {
     int n;
-    printf("ĞèÒªÊäÈë³É¼¨µÄÑ§Éú¸öÊı:");
+    printf("éœ€è¦è¾“å…¥æˆç»©çš„å­¦ç”Ÿä¸ªæ•°:");
     scanf("%d",&n);
     int score(int n);
     score(n);

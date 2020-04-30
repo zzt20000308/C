@@ -5,24 +5,24 @@
 int main()
 {
 	double d1;
-	printf("ÇëÊäÈë³É¼¨:");
+	printf("è¯·è¾“å…¥æˆç»©:");
 	scanf("%lf",&d1);
 	if(0<=d1&&d1<=100)
     {
-		printf("³É¼¨ºÏÀí,ÇëÔÙ´ÎÊäÈë³É¼¨:");
+		printf("æˆç»©åˆç†,è¯·å†æ¬¡è¾“å…¥æˆç»©:");
     }
 	else
     {
-		printf("³É¼¨²»ºÏÀí,ÇëÖØĞÂÊäÈë³É¼¨:");
+		printf("æˆç»©ä¸åˆç†,è¯·é‡æ–°è¾“å…¥æˆç»©:");
     }
 	scanf("%lf",&d1);
 	switch((int)(d1/60))
 	{
 	case 1:
-		printf("ºÏ¸ñ\n");
+		printf("åˆæ ¼\n");
 		break;
 	case 0:
-		printf("²»ºÏ¸ñ\n");
+		printf("ä¸åˆæ ¼\n");
 		break;
 	}
 	return 0;
@@ -32,22 +32,22 @@ int main()
 int main()
 {
 	double d1;
-	printf("ÇëÊäÈë³É¼¨:");
+	printf("è¯·è¾“å…¥æˆç»©:");
 	scanf("%lf",&d1);
 	if(0<=d1&&d1<=100)
 	{
 		if(0<=d1&&d1<=60)
 		{
-			printf("²»ºÏ¸ñ\n");
+			printf("ä¸åˆæ ¼\n");
 		}
 		else
 		{
-			printf("ºÏ¸ñ\n");
+			printf("åˆæ ¼\n");
 		}
 	}
 	else
 	{
-		printf("³É¼¨²»ºÏÀí\n");
+		printf("æˆç»©ä¸åˆç†\n");
 	}
 	return 0;
 }

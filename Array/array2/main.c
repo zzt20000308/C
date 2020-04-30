@@ -5,14 +5,14 @@ int main()
 {
     int i,n,sum,a[100];
     float avg;
-    while(scanf("%d",&n))//ÊäÈëµÚÒ»ÐÐn
+    while(scanf("%d",&n))//è¾“å…¥ç¬¬ä¸€è¡Œn
     {
         sum=0;
         for(i=1;i<=n;i++)
         {
-            scanf("%d",&a[i]);//ÊäÈëµÚ¶þÐÐÊý×é
-            sum+=a[i];//ÇóºÍ
-            avg=sum*1.0/i;//ÇóÆ½¾ù
+            scanf("%d",&a[i]);//è¾“å…¥ç¬¬äºŒè¡Œæ•°ç»„
+            sum+=a[i];//æ±‚å’Œ
+            avg=sum*1.0/i;//æ±‚å¹³å‡
         }
         printf("sum=%d,avg=%.2f\n",sum,avg);
     }
